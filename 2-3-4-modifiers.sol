@@ -50,7 +50,7 @@ contract userBalance {
         return userbal[msg.sender];
     }
 
-    //function allowing to check if an addresses has funds deposited in the mapping
+    //function allowing to check if an address has funds deposited in the mapping
     function arrayChecker() internal view returns (bool) {
         uint i;
         for (i = 0; i < balArray.length; i++) {
